@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.sign-wrapper{
+    display: flex;
+}
+.left-side{
+    width: 50%;
+}
+
+.left-side-image{
+    float: right;
+    position: relative;
+    top : 15vh;
+    padding: 0px 24px;
+}
+.right-side{
+    width: 50%;
+    display: flex;
+    justify-content:center;
+    align-items : center;
+    position: relative;
+    /* top: 12vh; */
+}
+
+
+
+.sign-up h3{
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 91px;
+    color: #263238;
+}
+
+.sign-up p{
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #242746;
+}
+
+
+@media(max-width:950px){
+    .sign-wrapper{
+        display: block;
+    }
+    .left-side{
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-side-image{
+        top: 0vh;
+        float: none;
+    }
+    .right-side{
+        width: 100%;
+    }
+    
+}

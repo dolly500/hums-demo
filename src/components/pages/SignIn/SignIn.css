@@ -1,0 +1,99 @@
+.sign-input{
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 1.5em;
+    border-radius: 8px;
+    background: #FFFFFF;
+    border: 0px;
+    outline: 0px;
+}
+
+.right-div h3{
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 91px;
+    color: #263238;
+}
+
+.right-div p:first-child{
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #242746;
+    margin-bottom: 1em;
+}
+
+.sign-accept{
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #242746;
+}
+
+.sign-up-btn{
+    background: #3A4BE6;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+.or{
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.sign-up-bt-fb{
+    background: #3B5998;
+    border-radius: 8px;
+    margin-right:0.5em;
+    width: 280px;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+
+.sign-up-bt-gg{
+    border: 3px solid #3A4BE6;
+    box-sizing: border-box;
+    width: 280px;
+    border-radius: 8px;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #3A4BE6;
+}
+
+@media(max-width:1200px){
+    .sign-up-bt-fb{
+        width: 220px;
+    }
+    .sign-up-bt-gg{
+        width: 220px;
+    }
+}
+
+@media(max-width:950px){
+    .sign-up-bt-fb{
+        width: 280px;
+        margin-bottom: 10px;
+    }
+    .sign-up-bt-gg{
+        width: 280px;
+    }
+}

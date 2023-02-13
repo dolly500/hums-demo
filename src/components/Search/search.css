@@ -1,0 +1,37 @@
+.main {
+    display: flex;
+    padding: 0 16px;
+    align-items: left;
+    margin-top: 2rem;
+    flex-direction: row;
+    justify-content: space-between !important;
+}
+
+
+.main input{
+    width: 195%;
+    padding: 4px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.main .header-avatar{
+    justify-content: space-between;
+    align-items: right;
+    flex-direction: row;
+    margin-left: 45rem;
+}
+
+
+
+@media  screen and (max-width: 410px) {
+    .main input{
+        width: 60%;
+    }
+
+    .main .header-avatar{
+        margin-left: -4.5rem;
+        font-size: 1px;
+    }
+
+}
